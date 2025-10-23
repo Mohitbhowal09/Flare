@@ -5,9 +5,11 @@
   "main": "electron/main.js",
   "scripts": {
     "dev": "cd frontend && npm run dev",
-    "build": "cd frontend && npm run build",
-    "start": "cd frontend && npm start",
-    "build:electron": "echo 'Electron build skipped on Vercel environment'"
+      {
+    "name": "flare",
+    "scripts": {
+      "build": "cd frontend && npm install && npm run build"
+    }
   },
   "keywords": ["streaming", "twitch", "youtube", "electron", "react"],
   "author": "Flare Team",
