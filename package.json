@@ -4,10 +4,11 @@
   "description": "Professional live streaming for beginners",
   "main": "electron/main.js",
   "scripts": {
-  "dev": "cd frontend && npm run dev",
-  "build": "cd frontend && npm run build",
-  "start": "cd frontend && npm start"
-},
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start",
+    "build:electron": "echo 'Electron build skipped on Vercel environment'"
+  },
   "keywords": ["streaming", "twitch", "youtube", "electron", "react"],
   "author": "Flare Team",
   "license": "MIT",
